@@ -210,11 +210,11 @@ class TestOnlinerCartPage():
         mouse.move_to_element(cart_add_item).perform()
         for click1 in range(9): 
             cart_add_item.click()
-        time.sleep(2)
+        time.sleep(4)
         mouse.move_to_element(cart_remove_item).perform()
         for click2 in range(6): 
             cart_remove_item.click()
-        time.sleep(2)
+        time.sleep(4)
         cart_change_quantity.send_keys(2)
         f=open("report.txt", "a+")
         f.write("\rTest case 9 (TC-9) passed successfully")
