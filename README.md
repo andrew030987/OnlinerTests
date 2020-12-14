@@ -1,3 +1,5 @@
+Onliner cart automated test cases.
+
 Inside this repo is a script that automates 10 test cases to test onliner's(www.onliner.by) basket. Selenium Web driver and Python were used for this purpose. 
 Script is located in src/ folder and called test_suite_onliner.py. File with test cases you may find in docs/ folder. 
 
@@ -12,9 +14,9 @@ https://www.computerhope.com/issues/ch000549.htm.
 
 3. Installing Python libraries.
 
-You may create a separate virtual environment for this step but it is not a requirement.
+ You may create a separate virtual environment for this step but it is not a requirement.
 
-Open cmd terminal:
+ Open cmd terminal:
  - Type: "pip install selenium" and press enter. This will install selenium library.
  - Type: "pip install pytest" and press enter. This will install pytest library.
 
