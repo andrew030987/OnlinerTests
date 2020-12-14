@@ -11,7 +11,9 @@ Make sure you download the correct version for your browser. Create a new direct
 https://www.computerhope.com/issues/ch000549.htm. 
 
 3. Installing Python libraries.
+
 You may create a separate virtual environment for this step but it is not a requirement.
+
 Open cmd terminal:
  - Type: "pip install selenium" and press enter. This will install selenium library.
  - Type: "pip install pytest" and press enter. This will install pytest library.
