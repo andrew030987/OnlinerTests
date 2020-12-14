@@ -14,6 +14,6 @@ You may create a separate virtual environment for this step.
 Type: "pip install selenium" and press enter. This will install selenium library.
 Type: "pip install pytest==5.1.1" and press enter. This will install pytest library.
 
-4. To start execution of tests type "pytest -s -v --tb=line src/test_suite_onliner.py" and press enter in terminal. It is recommended to close all other programs and browsers on your computer before executing the test suite. 
+4. To start execution of tests type "pytest -s -v --tb=line src/test_suite_onliner.py" from project directory and press enter in terminal. It is recommended to close all other programs and browsers on your computer before executing the test suite. 
 
 5. After tests were executed, a text file called "report.txt" has been created in scr/ folder. It shows if all of the tests passed successfully.
